@@ -1,12 +1,34 @@
-- 👋 Hi, I’m @NzetemLeonel
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+# TalkMeetDokta
 
-<!---
-NzetemLeonel/NzetemLeonel is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+Comprehensive web-based telemedicine platform designed to revolutionize healthcare delivery in Cameroon.
+
+## Tech Stack
+- **Framework**: Next.js (React)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **ORM**: Prisma
+- **Database**: PostgreSQL
+
+## Roles
+- Patient
+- Doctor
+- Admin
+
+## Getting Started
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Set up your environment variables in `.env`.
+
+3. Generate Prisma Client:
+   ```bash
+   npx prisma generate
+   ```
+
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
